@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+header {
+    background-image: url(../img/bg.jpeg);
+    background-size: cover;
+	  background-repeat: no-repeat;
+    color:#F5F5F5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    text-align: justify;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery img {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+.home img{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px; 
+    margin-right: 80px;
+    
+}
+
+.editor img {
+  border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 20px;
+    
+}
+  
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #006400;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
